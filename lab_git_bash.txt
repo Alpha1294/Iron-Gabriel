@@ -1,0 +1,22 @@
+
+1- echo "Hello World"
+2-mkdir new_dir
+3- rm -rf new_dir
+4 cp lorem/sed.txt lorem-copy/
+5 cp lorem/at.txt lorem-copy/ ; cp lorem/lorem.txt lorem-copy/
+6 cat sed.txt
+7 cat at.txt ; cat lorem.txt
+8 head to see firs rows head -n 3 ---> head -n 3 sed.txt
+9 tail -n 3 sed.txt
+10 echo "Homo homini lupus." >> lorem-copy/sed.txt
+11 tail -n sed.txt
+12 sed -i "s/et/ET/g" at.txt
+13 whoami
+14 pwd stands for print working directory
+15 ls *.txt to show all the txt files
+16 cat sed.txt | wc -l to count the rows
+17 find . -type f -name "lorem*" | wc -l
+20 read -p "enter my name: " my_name --> then i write my name
+21 use the dollar sign $ and the name of the variable to print the content
+22 mkdir "$my_name" to make the directory with the name that my_name variable has
+23 rmdir "$my_name" to remove the directory
